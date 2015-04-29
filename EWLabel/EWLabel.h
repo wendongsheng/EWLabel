@@ -16,8 +16,19 @@
     CGFloat paragraphSpacing_;   //段间距
 }
 
+/**
+ *  设置文本的字间距
+ */
 @property (nonatomic, assign) CGFloat characterSpacing;
+
+/**
+ *  设置文本的段落间距
+ */
 @property (nonatomic, assign) CGFloat paragraphSpacing;
+
+/**
+ *  设置文本的行间距
+ */
 @property (nonatomic, assign) long linesSpacing;
 
 /**

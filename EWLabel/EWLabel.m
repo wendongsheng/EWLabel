@@ -43,7 +43,9 @@
     [self setNeedsDisplay];
 }
 
-//外部调用设置行间距
+/**
+ *  外部调用设置行间距
+ */
 - (void)setLinesSpacing:(long)linesSpacing{
     lineSpacing_ = linesSpacing;
     [self setNeedsDisplay];
