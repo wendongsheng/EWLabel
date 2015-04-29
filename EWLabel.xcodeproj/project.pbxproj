@@ -14,6 +14,7 @@
 		788535AB1AF0750A00DE396A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 788535AA1AF0750A00DE396A /* Images.xcassets */; };
 		788535AE1AF0750A00DE396A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 788535AC1AF0750A00DE396A /* LaunchScreen.xib */; };
 		788535BA1AF0750A00DE396A /* EWLabelTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 788535B91AF0750A00DE396A /* EWLabelTests.m */; };
+		788535C51AF0752D00DE396A /* EWLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 788535C41AF0752D00DE396A /* EWLabel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		788535B31AF0750A00DE396A /* EWLabelTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EWLabelTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		788535B81AF0750A00DE396A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		788535B91AF0750A00DE396A /* EWLabelTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EWLabelTests.m; sourceTree = "<group>"; };
+		788535C31AF0752D00DE396A /* EWLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EWLabel.h; sourceTree = "<group>"; };
+		788535C41AF0752D00DE396A /* EWLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EWLabel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +84,7 @@
 		7885359C1AF0750A00DE396A /* EWLabel */ = {
 			isa = PBXGroup;
 			children = (
+				788535C61AF0753C00DE396A /* EWLabel */,
 				788535A11AF0750A00DE396A /* AppDelegate.h */,
 				788535A21AF0750A00DE396A /* AppDelegate.m */,
 				788535A41AF0750A00DE396A /* ViewController.h */,
@@ -117,6 +121,15 @@
 				788535B81AF0750A00DE396A /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		788535C61AF0753C00DE396A /* EWLabel */ = {
+			isa = PBXGroup;
+			children = (
+				788535C31AF0752D00DE396A /* EWLabel.h */,
+				788535C41AF0752D00DE396A /* EWLabel.m */,
+			);
+			name = EWLabel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -219,6 +232,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				788535C51AF0752D00DE396A /* EWLabel.m in Sources */,
 				788535A61AF0750A00DE396A /* ViewController.m in Sources */,
 				788535A31AF0750A00DE396A /* AppDelegate.m in Sources */,
 				788535A01AF0750A00DE396A /* main.m in Sources */,
