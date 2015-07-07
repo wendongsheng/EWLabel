@@ -26,6 +26,10 @@
 
 @synthesize paragraphSpacing = paragraphSpacing_;
 
+- (void)test{
+    NSLog(@"这是一个测试");
+}
+
 - (instancetype)initWithFrame:(CGRect)frame
 {
     //初始化字间距、行间距

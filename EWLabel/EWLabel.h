@@ -36,4 +36,7 @@
  */
 - (int)getAttributedStringHeightWidthValue:(int)width;
 
+//test
+- (void)test;
+
 @end
